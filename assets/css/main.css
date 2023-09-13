@@ -948,6 +948,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 .services-item .services-content p {
   line-height: 22px;
+  align-content: center;
 }
 
 .services-item:hover {
@@ -1127,4 +1128,21 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 #copyright p a:hover {
   color: #00b4d9;
+}
+
+.cardbox {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  align-content: center;
+}
+
+.cardbox ul {
+  list-style-type: disc;
+  align-content: center;
+}
+
+.cardbox li {
+  align-content: center;
 }
